@@ -1,0 +1,61 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AppAgent-Claw banner</title>
+  <desc id="desc">A dark futuristic banner for AppAgent-Claw with a single-line glowing title and a compact workflow tagline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="160" y1="36" x2="1450" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1B22"/>
+      <stop offset="0.55" stop-color="#091118"/>
+      <stop offset="1" stop-color="#05080D"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 170) rotate(90) scale(220 900)">
+      <stop stop-color="#3BE9F5" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#3BE9F5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGradient" x1="360" y1="100" x2="1190" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82F7FF"/>
+      <stop offset="0.55" stop-color="#62E7F0"/>
+      <stop offset="1" stop-color="#53D4EA"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" stroke="#1A323B" stroke-opacity="0.42" stroke-width="1"/>
+    </pattern>
+    <filter id="titleGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0.98  0 0 1 0 1  0 0 0 0.95 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="tagGlow" x="-10%" y="-120%" width="120%" height="320%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0.98  0 0 1 0 1  0 0 0 0.82 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title {
+        font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        letter-spacing: 4px;
+      }
+      .tagline {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-weight: 600;
+        letter-spacing: 8px;
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="420" rx="20" fill="#05070A"/>
+  <rect width="1600" height="420" rx="20" fill="url(#bg)"/>
+  <rect width="1600" height="420" rx="20" fill="url(#grid)" opacity="0.68"/>
+  <ellipse cx="760" cy="170" rx="940" ry="220" fill="url(#ambient)"/>
+  <rect x="0.5" y="0.5" width="1599" height="419" rx="19.5" stroke="#6DF4FF" stroke-opacity="0.08"/>
+
+  <text x="800" y="190" text-anchor="middle" class="title" font-size="122" fill="url(#titleGradient)" filter="url(#titleGlow)">AppAgent Claw</text>
+  <text x="800" y="330" text-anchor="middle" class="tagline" font-size="28" fill="#83F8FF" filter="url(#tagGlow)">RECORD • ANNOTATE • REPLAY • WORKFLOW</text>
+</svg>

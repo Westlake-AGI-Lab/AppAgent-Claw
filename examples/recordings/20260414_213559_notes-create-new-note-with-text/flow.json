@@ -1,0 +1,332 @@
+{
+  "name": "notes-create-new-note-with-text",
+  "created_at": "2026-04-14T13:35:37.719459Z",
+  "steps": [
+    {
+      "id": "step_0001",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 437,
+        "abs_y": 289,
+        "rel_x": 0.25555555555555554,
+        "rel_y": 0.25989208633093525
+      },
+      "locator": {
+        "anchor_image": "assets/step_0001/anchor.png",
+        "context_image": "assets/step_0001/context.png",
+        "search_region": {
+          "left": 221,
+          "top": 113,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 19个备忘录"
+      },
+      "description": "Click the recorded target using the saved anchor and context images."
+    },
+    {
+      "id": "step_0002",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 19个备忘录"
+      },
+      "description": "Wait 3.05 seconds for the app to settle before continuing.",
+      "seconds": 3.05
+    },
+    {
+      "id": "step_0003",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 570,
+        "abs_y": 296,
+        "rel_x": 0.3333333333333333,
+        "rel_y": 0.26618705035971224
+      },
+      "locator": {
+        "anchor_image": "assets/step_0003/anchor.png",
+        "context_image": "assets/step_0003/context.png",
+        "search_region": {
+          "left": 354,
+          "top": 120,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 20个备忘录"
+      },
+      "description": "Click the recorded target using the saved anchor and context images."
+    },
+    {
+      "id": "step_0004",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 20个备忘录"
+      },
+      "description": "Wait 3.24 seconds for the app to settle before continuing.",
+      "seconds": 3.24
+    },
+    {
+      "id": "step_0005",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 617,
+        "abs_y": 363,
+        "rel_x": 0.36081871345029237,
+        "rel_y": 0.32643884892086333
+      },
+      "locator": {
+        "anchor_image": "assets/step_0005/anchor.png",
+        "context_image": "assets/step_0005/context.png",
+        "search_region": {
+          "left": 401,
+          "top": 187,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 20个备忘录"
+      },
+      "description": "Click the recorded target to focus the next input or UI state."
+    },
+    {
+      "id": "step_0006",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 20个备忘录"
+      },
+      "description": "Wait 1.20 seconds for the app to settle before continuing.",
+      "seconds": 1.2
+    },
+    {
+      "id": "step_0007",
+      "action": "type_text",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 20个备忘录"
+      },
+      "description": "Type runtime-provided text into the focused input field for the recorded text slot.",
+      "text": "Happy",
+      "text_policy": {
+        "mode": "parameterized",
+        "input_id": "input_text_01",
+        "reason": "This text looks like final freeform content that can be provided by the calling agent at replay time."
+      }
+    },
+    {
+      "id": "step_0008",
+      "action": "hotkey",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 20个备忘录"
+      },
+      "description": "Send the recorded hotkey sequence: enter.",
+      "key": "enter"
+    },
+    {
+      "id": "step_0009",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 20个备忘录"
+      },
+      "description": "Wait 3.09 seconds for the app to settle before continuing.",
+      "seconds": 3.09
+    },
+    {
+      "id": "step_0010",
+      "action": "long_press",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 149,
+        "abs_y": 294,
+        "rel_x": 0.0871345029239766,
+        "rel_y": 0.2643884892086331
+      },
+      "locator": {
+        "anchor_image": "assets/step_0010/anchor.png",
+        "context_image": "assets/step_0010/context.png",
+        "search_region": {
+          "left": 0,
+          "top": 118,
+          "width": 365,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "Notes",
+        "x": 122,
+        "y": 268,
+        "width": 1000,
+        "height": 660,
+        "window_title": "iCloud全部 – 20个备忘录"
+      },
+      "description": "Press and hold the recorded target using the saved anchor and context images.",
+      "hold_duration_ms": 740
+    }
+  ],
+  "schema_version": "0.3",
+  "platform": "macos",
+  "app_context": {
+    "foreground_app": "Notes"
+  },
+  "description": "Recorded macOS foreground-app workflow for Notes. The flow contains 10 steps covering 3 click, 1 hotkey, 1 long_press, 1 type_text, 4 wait. Replay-time text inputs are available for: input_text_01 (generic_text). Only those text slots may be changed; recorded click anchors and other fixed steps must stay unchanged.",
+  "inputs": [
+    {
+      "id": "input_text_01",
+      "kind": "text",
+      "semantic_role": "generic_text",
+      "description": "Replay-time text content for Notes.",
+      "example_text": "Happy"
+    }
+  ],
+  "annotation": {
+    "status": "completed",
+    "source": "agent",
+    "analyzed_at": "2026-04-14T13:35:59.422344Z"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "name": "safari-new-tab-search-keyword",
+  "created_at": "2026-04-14T13:38:38.378803Z",
+  "steps": [
+    {
+      "id": "step_0001",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 650,
+        "abs_y": 261,
+        "rel_x": 0.38011695906432746,
+        "rel_y": 0.23471223021582735
+      },
+      "locator": {
+        "anchor_image": "assets/step_0001/anchor.png",
+        "context_image": "assets/step_0001/context.png",
+        "search_region": {
+          "left": 434,
+          "top": 85,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "Safari",
+        "x": 217,
+        "y": 233,
+        "width": 1320,
+        "height": 700,
+        "window_title": "起始页"
+      },
+      "description": "Click the recorded target to focus the next input or UI state."
+    },
+    {
+      "id": "step_0002",
+      "action": "type_text",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Safari",
+        "x": 217,
+        "y": 233,
+        "width": 1320,
+        "height": 700,
+        "window_title": "起始页"
+      },
+      "description": "Type runtime-provided text into the focused input field for the recorded text slot.",
+      "text": "ww.baidu.com",
+      "text_policy": {
+        "mode": "parameterized",
+        "input_id": "input_text_01",
+        "reason": "This text looks like final freeform content that can be provided by the calling agent at replay time."
+      }
+    },
+    {
+      "id": "step_0003",
+      "action": "hotkey",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Safari",
+        "x": 217,
+        "y": 233,
+        "width": 1320,
+        "height": 700,
+        "window_title": "百度一下，你就知道"
+      },
+      "description": "Send the recorded hotkey sequence: enter.",
+      "key": "enter"
+    },
+    {
+      "id": "step_0004",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Safari",
+        "x": 217,
+        "y": 233,
+        "width": 1320,
+        "height": 700,
+        "window_title": "百度一下，你就知道"
+      },
+      "description": "Wait 1.90 seconds for the app to settle before continuing.",
+      "seconds": 1.9
+    },
+    {
+      "id": "step_0005",
+      "action": "hotkey",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Safari",
+        "x": 217,
+        "y": 233,
+        "width": 1320,
+        "height": 700,
+        "window_title": "百度一下，你就知道"
+      },
+      "description": "Send the recorded hotkey sequence: enter.",
+      "key": "enter"
+    },
+    {
+      "id": "step_0006",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "Safari",
+        "x": 217,
+        "y": 233,
+        "width": 1320,
+        "height": 700,
+        "window_title": "百度一下，你就知道"
+      },
+      "description": "Wait 3.89 seconds for the app to settle before continuing.",
+      "seconds": 3.89
+    },
+    {
+      "id": "step_0007",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 243,
+        "abs_y": 262,
+        "rel_x": 0.14210526315789473,
+        "rel_y": 0.2356115107913669
+      },
+      "locator": {
+        "anchor_image": "assets/step_0007/anchor.png",
+        "context_image": "assets/step_0007/context.png",
+        "search_region": {
+          "left": 27,
+          "top": 86,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "Safari",
+        "x": 217,
+        "y": 233,
+        "width": 1320,
+        "height": 700,
+        "window_title": "百度一下，你就知道"
+      },
+      "description": "Click the recorded target using the saved anchor and context images."
+    }
+  ],
+  "schema_version": "0.3",
+  "platform": "macos",
+  "app_context": {
+    "foreground_app": "Safari"
+  },
+  "description": "Recorded macOS foreground-app workflow for Safari. The flow contains 7 steps covering 2 click, 2 hotkey, 1 type_text, 2 wait. Replay-time text inputs are available for: input_text_01 (generic_text). Only those text slots may be changed; recorded click anchors and other fixed steps must stay unchanged.",
+  "inputs": [
+    {
+      "id": "input_text_01",
+      "kind": "text",
+      "semantic_role": "generic_text",
+      "description": "Replay-time text content for Safari.",
+      "example_text": "ww.baidu.com"
+    }
+  ],
+  "annotation": {
+    "status": "completed",
+    "source": "agent",
+    "analyzed_at": "2026-04-14T13:38:55.254919Z"
+  }
+}

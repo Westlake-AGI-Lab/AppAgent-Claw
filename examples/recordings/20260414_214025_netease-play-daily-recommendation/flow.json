@@ -1,0 +1,385 @@
+{
+  "name": "netease-play-daily-recommendation",
+  "created_at": "2026-04-14T13:39:57.053961Z",
+  "steps": [
+    {
+      "id": "step_0001",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 419,
+        "abs_y": 308,
+        "rel_x": 0.24502923976608187,
+        "rel_y": 0.27697841726618705
+      },
+      "locator": {
+        "anchor_image": "assets/step_0001/anchor.png",
+        "context_image": "assets/step_0001/context.png",
+        "search_region": {
+          "left": 203,
+          "top": 132,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Click the recorded target using the saved anchor and context images."
+    },
+    {
+      "id": "step_0002",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Wait 2.94 seconds for the app to settle before continuing.",
+      "seconds": 2.94
+    },
+    {
+      "id": "step_0003",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 629,
+        "abs_y": 526,
+        "rel_x": 0.3678362573099415,
+        "rel_y": 0.47302158273381295
+      },
+      "locator": {
+        "anchor_image": "assets/step_0003/anchor.png",
+        "context_image": "assets/step_0003/context.png",
+        "search_region": {
+          "left": 413,
+          "top": 350,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Click the recorded target using the saved anchor and context images."
+    },
+    {
+      "id": "step_0004",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Wait 3.90 seconds for the app to settle before continuing.",
+      "seconds": 3.9
+    },
+    {
+      "id": "step_0005",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 618,
+        "abs_y": 387,
+        "rel_x": 0.36140350877192984,
+        "rel_y": 0.34802158273381295
+      },
+      "locator": {
+        "anchor_image": "assets/step_0005/anchor.png",
+        "context_image": "assets/step_0005/context.png",
+        "search_region": {
+          "left": 402,
+          "top": 211,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Click the recorded target using the saved anchor and context images."
+    },
+    {
+      "id": "step_0006",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Wait 7.37 seconds for the app to settle before continuing.",
+      "seconds": 7.37
+    },
+    {
+      "id": "step_0007",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 856,
+        "abs_y": 913,
+        "rel_x": 0.5005847953216375,
+        "rel_y": 0.8210431654676259
+      },
+      "locator": {
+        "anchor_image": "assets/step_0007/anchor.png",
+        "context_image": "assets/step_0007/context.png",
+        "search_region": {
+          "left": 640,
+          "top": 737,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Click the recorded target using the saved anchor and context images."
+    },
+    {
+      "id": "step_0008",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Wait 2.34 seconds for the app to settle before continuing.",
+      "seconds": 2.34
+    },
+    {
+      "id": "step_0009",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 396,
+        "abs_y": 311,
+        "rel_x": 0.23157894736842105,
+        "rel_y": 0.27967625899280574
+      },
+      "locator": {
+        "anchor_image": "assets/step_0009/anchor.png",
+        "context_image": "assets/step_0009/context.png",
+        "search_region": {
+          "left": 180,
+          "top": 135,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Click the recorded target using the saved anchor and context images."
+    },
+    {
+      "id": "step_0010",
+      "action": "wait",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 0
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Wait 4.01 seconds for the app to settle before continuing.",
+      "seconds": 4.01
+    },
+    {
+      "id": "step_0011",
+      "action": "click",
+      "timing": {
+        "pre_delay_ms": 0,
+        "post_delay_ms": 800
+      },
+      "monitor": {
+        "id": 1,
+        "left": 0,
+        "top": 0,
+        "width": 1710,
+        "height": 1112
+      },
+      "target": {
+        "abs_x": 344,
+        "abs_y": 216,
+        "rel_x": 0.20116959064327486,
+        "rel_y": 0.19424460431654678
+      },
+      "locator": {
+        "anchor_image": "assets/step_0011/anchor.png",
+        "context_image": "assets/step_0011/context.png",
+        "search_region": {
+          "left": 128,
+          "top": 40,
+          "width": 432,
+          "height": 352
+        },
+        "match_threshold": 0.92
+      },
+      "retry": {
+        "max_attempts": 2,
+        "fallback_to_relative": true
+      },
+      "validation": {
+        "mode": "none"
+      },
+      "window_context": {
+        "app_name": "NeteaseMusic",
+        "x": 327,
+        "y": 199,
+        "width": 1057,
+        "height": 752
+      },
+      "description": "Click the recorded target using the saved anchor and context images."
+    }
+  ],
+  "schema_version": "0.3",
+  "platform": "macos",
+  "app_context": {
+    "foreground_app": "NeteaseMusic"
+  },
+  "description": "Recorded macOS foreground-app workflow for NeteaseMusic. The flow contains 11 steps covering 6 click, 5 wait. No safe replay-time text inputs were identified, so all recorded text remains fixed.",
+  "inputs": [],
+  "annotation": {
+    "status": "completed",
+    "source": "agent",
+    "analyzed_at": "2026-04-14T13:40:25.534552Z"
+  }
+}
